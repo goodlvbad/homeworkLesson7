@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.estimatedRowHeight = 50
+        tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableView.automaticDimension
         tableView.register(CustomCell.self, forCellReuseIdentifier: customCellId)
         tableView.register(CustomHeaderView.self, forHeaderFooterViewReuseIdentifier: customHeaderId)
